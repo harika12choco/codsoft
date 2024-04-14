@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:#EFD9A7;
+}
+
+.main{
+    width: 100%;
+    background-color:#EFD9A7;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.navbar{
+    top: 0;
+    right: 0;
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    position: fixed;
+    align-items: center;
+    z-index: 1000;
+}
+
+.navbar .logo{
+    width: 160px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+ul li {
+    padding: 10px 16px;
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #501313;
+    transition: .4s ease;
+}
+
+ul li a:hover{
+    color: #6d2932;
+}
+.container {
+    position: relative;
+    display: flex;
+}
+
+.info-section {
+    margin-left: 7%;
+    margin-top: 15%;
+    width: 60%; /* Adjust the width as needed */
+    position: relative;
+}
+
+.info-section h1 {
+    font-size: 65px;
+    color: rgb(15, 15, 14);
+}
+
+.info-section h3 {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #181617;
+}
+
+.info-section span {
+    color: #6d0e0ec5;
+}
+
+.info-section a {
+    text-decoration: none;
+    color: #f7f8ff;
+    background: #4D2D18;
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+}
+
+.info-section a:hover {
+    background: #4D2D18;
+}
+
+.image {
+    width:30%;
+    height: 80%;
+    position: absolute;
+    right: 0;
+}
+
+.image img {
+    position: absolute;
+    height: 160%;
+    left: 40%;
+    transform: translateX(-50%);
+    transition: left 2s ease;
+    margin-bottom: 2%;
+    margin-top: 15%;
+}
+
+.image:hover .girl {
+    left: 55%;
+}
+
+
+.icons a{
+    text-decoration: none;
+    color: #0e0d0d;
+}
+
+.icons ion-icon{
+    margin-left: 7%;
+    color: #080808;
+    margin-right: -60px;
+    font-size: 40px;
+    transition: .4s ease;
+}
+
+.icons ion-icon:hover{
+    color: rgb(59,174,209);
+}
+.contact-section {
+    background-color: #EFD9A7;
+    padding: 50px;
+    border-radius: 10px;
+    margin-top:100px;
+    text-align: center;
+}
+.contact-section h1 {
+    font-size: 30px;
+    color: #4D2D18;
+    margin-bottom:0px;
+}
+.contact-section h2 {
+    font-size: 20px;
+    color:#4D2D18;
+    margin-bottom: 5px;
+}
+.contact-section h3 {
+    font-size: 18px;
+    color: #4D2D18;
+    margin-bottom: 5px;
+}
+.contact-section h4 {
+    font-size: 16px;
+    color:#4D2D18;
+    margin-bottom: 5px;
+}
+.contact-section p {
+    font-size: 14px;
+    color: #4D2D18;
+}
+.about-section {
+    background-color: #EFD9A7;
+    padding:100px;
+    margin-top:100px;
+    margin-bottom: 120px;
+    text-align: left;
+    max-width:calc(50% - 20px);
+}
+.about-section p {
+    font-size: 24px;
+    color: #4D2D18;
+    margin-top: 70px;
+    padding-left: 0; 
+    max-width: 100%;
+    text-align: center;
+}
+.about-section h1 {
+    text-align: center;
+    font-size: 34px;
+    color: #4D2D18;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+.skills {
+    float: right;
+    margin-right: 20px;
+    width: 50%; /* Adjust the width as needed */
+    padding-top: 100px;
+    border-radius: 10px;
+    margin-left:80px;
+}
+
+.skill-bar {
+    margin-bottom: 20px; /* Increase the margin between skill bars */
+}
+
+.skill-bar span {
+    display: block;
+    margin-bottom: 10px; /* Increase the margin between skill name and skill bar */
+    font-weight: bold;
+    background-color: #EFD9A7;
+    color: #4D2D18;
+    margin-left:20px;
+}
+
+.skill-level {
+    background-color: #4D2D18;
+    padding: 10px; /* Increase padding */
+    border-radius: 5px;
+}
+.myskills
+{
+    font-size: 28px; 
+    color: #4D2D18;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    padding:50px;
+}
+
